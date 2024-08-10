@@ -1,0 +1,78 @@
+/* Reset and base styles */
+body {
+  margin: 0;
+  font-family: cursive sans-serif;
+  background-color: rgb(25, 29, 39);
+  color: white;
+
+  height: 100vh;
+  padding: 20px;
+  text-align: center;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Button styles */
+button {
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #fbff00;
+  color: black;
+  border: none;
+  border-radius: 5px;
+}
+
+/* Mnemonic container styles */
+.mnemonic-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 columns */
+  gap: 10px;
+  margin: 20px auto;
+  max-width: 600px;
+}
+
+.mnemonic-container p {
+  margin: 0;
+  padding: 10px;
+  background-color: #ffea00;
+  border-radius: 5px;
+  color: black;
+  font-size: 16px;
+}
+
+/* Wallet list styles */
+#wallet-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+#wallet-list li {
+  margin: 10px 0;
+  padding: 10px;
+  background-color: #727272;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+/* App container */
+.App {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+/* Multi-wallet container */
+.mul-wallet {
+  margin-top: 20px;
+}
+
+/* Additional input styling if needed */
+input {
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 16px;
+}
